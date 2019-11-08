@@ -14,6 +14,6 @@ DLA cannot easily create an infinite procedural heightmap, but using a sparse se
 
 I have searched to find a reference for this algorithm, but so far I could not find one yet.
 
-![Sample](https://github.com/sp4cerat/Terrain-HeightMap-Generator/blob/master/data/title2.png?raw=true)
+![Sample](https://github.com/sp4cerat/Terrain-HeightMap-Generator/blob/master/data/title3.png?raw=true)
 
 ![Sample](https://github.com/sp4cerat/Terrain-HeightMap-Generator/blob/master/data/title.png?raw=true)
