@@ -1,0 +1,10 @@
+00:30:11: Creating resource group General
+00:30:11: Creating resource group Internal
+00:30:11: Creating resource group Autodetect
+00:30:11: Registering ResourceManager for type Mesh
+00:30:11: Registering ResourceManager for type Material
+00:30:11: Registering ResourceManager for type Skeleton
+00:30:11: OGRE EXCEPTION(2:InvalidParametersException): Can only determine the endianness of the input stream if it is at the start in Serializer::determineEndianness at ..\..\..\..\OgreMain\src\OgreSerializer.cpp (line 62)
+00:30:11: Unregistering ResourceManager for type Skeleton
+00:30:11: Unregistering ResourceManager for type Material
+00:30:11: Unregistering ResourceManager for type Mesh

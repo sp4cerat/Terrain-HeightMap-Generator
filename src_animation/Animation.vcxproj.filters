@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{0afe1f4c-a089-43f2-9880-9653e3e32383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader">
+      <UniqueIdentifier>{9598472a-f3af-468e-b477-a16a6fc8fb2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{68ac1930-7cbf-408a-97bd-650bca509cb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{f6ca8598-a130-41b5-b42f-df4436dfe2ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\terrain">
+      <UniqueIdentifier>{66eca537-9340-43e2-9984-c67e93979b80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\xml">
+      <UniqueIdentifier>{18867c06-256c-4283-a4d9-38183900be09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{66b0c3d1-cbeb-445b-90c4-3c7c1a29c99c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\moon">
+      <UniqueIdentifier>{19c69e5e-9ce5-4088-a12e-d61b119d52a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\skybox">
+      <UniqueIdentifier>{a31b6b7a-8b4b-433f-bc09-186d6aba3809}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\turrican">
+      <UniqueIdentifier>{4281d8bd-6d94-4303-a3eb-d38ef39cb8a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\mesh">
+      <UniqueIdentifier>{76ddbddf-ebc7-4da5-aef4-f80ddca51978}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\volume">
+      <UniqueIdentifier>{02d575b6-add1-4e77-90de-c283635312df}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src_common\Bmp.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src_common\core.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src_common\glsl.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src_common\ogl.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\glew.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\glsl.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\glxew.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wglew.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src_common\xml\tinystr.h">
+      <Filter>common\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src_common\xml\tinyxml.h">
+      <Filter>common\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src_common\Mesh.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src_common\MeshAnimation.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src_common\md5\glut.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="Volume.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src_common\Bmp.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\glew.cpp">
+      <Filter>include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src_common\xml\tinystr.cpp">
+      <Filter>common\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src_common\xml\tinyxml.cpp">
+      <Filter>common\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src_common\xml\tinyxmlerror.cpp">
+      <Filter>common\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src_common\xml\tinyxmlparser.cpp">
+      <Filter>common\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src_common\core.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\shader\terrain\frag.txt">
+      <Filter>shader\terrain</Filter>
+    </None>
+    <None Include="..\shader\terrain\vs.txt">
+      <Filter>shader\terrain</Filter>
+    </None>
+    <None Include="..\data\skybox\ogre.material">
+      <Filter>data\skybox</Filter>
+    </None>
+    <None Include="..\data\skybox\ogre.mesh.xml">
+      <Filter>data\skybox</Filter>
+    </None>
+    <None Include="..\data\turrican\ogre.material">
+      <Filter>data\turrican</Filter>
+    </None>
+    <None Include="..\data\turrican\ogre.mesh.xml">
+      <Filter>data\turrican</Filter>
+    </None>
+    <None Include="..\data\turrican\ogre.skeleton.xml">
+      <Filter>data\turrican</Filter>
+    </None>
+    <None Include="..\shader\mesh\frag.txt">
+      <Filter>shader\mesh</Filter>
+    </None>
+    <None Include="..\shader\mesh\vs.txt">
+      <Filter>shader\mesh</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\shader\volume\frag.txt">
+      <Filter>shader\volume</Filter>
+    </Text>
+    <Text Include="..\shader\volume\vs.txt">
+      <Filter>shader\volume</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

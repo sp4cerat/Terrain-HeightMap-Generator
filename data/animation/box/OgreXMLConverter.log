@@ -1,0 +1,26 @@
+12:46:11: Creating resource group General
+12:46:11: Creating resource group Internal
+12:46:11: Creating resource group Autodetect
+12:46:11: Registering ResourceManager for type Mesh
+12:46:11: Registering ResourceManager for type Material
+12:46:11: Registering ResourceManager for type Skeleton
+12:46:11: XMLSkeletonSerializer writing  skeleton data to box.skeleton.xml...
+12:46:11: Populating DOM...
+12:46:11: Exporting bones..
+12:46:11: There are 7 bones.
+12:46:11:    Exporting Bone number 0
+12:46:11:    Exporting Bone number 1
+12:46:11:    Exporting Bone number 2
+12:46:11:    Exporting Bone number 3
+12:46:11:    Exporting Bone number 4
+12:46:11:    Exporting Bone number 5
+12:46:11:    Exporting Bone number 6
+12:46:11: Bones exported.
+12:46:11: Exporting animations, count=1
+12:46:11: Exporting animation: clip1
+12:46:11: Animation exported.
+12:46:11: DOM populated, writing XML file..
+12:46:11: XMLSkeletonSerializer export successful.
+12:46:11: Unregistering ResourceManager for type Skeleton
+12:46:11: Unregistering ResourceManager for type Material
+12:46:11: Unregistering ResourceManager for type Mesh

@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TerrainRender", "src_rendering\ClipMap.vcxproj", "{98864040-E723-43CF-9479-6FBCDF2F6C51}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Heightmap", "src_heightmap\Heightmap.vcxproj", "{759ACB2E-A3BB-4707-BA60-C60D913BF6FD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Animation", "src_animation\Animation.vcxproj", "{E11169AF-C015-4C03-B639-03DA59645B97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98864040-E723-43CF-9479-6FBCDF2F6C51}.Debug|Win32.ActiveCfg = Debug|Win32
+		{98864040-E723-43CF-9479-6FBCDF2F6C51}.Debug|Win32.Build.0 = Debug|Win32
+		{98864040-E723-43CF-9479-6FBCDF2F6C51}.Debug|x64.ActiveCfg = Debug|x64
+		{98864040-E723-43CF-9479-6FBCDF2F6C51}.Debug|x64.Build.0 = Debug|x64
+		{98864040-E723-43CF-9479-6FBCDF2F6C51}.Release|Win32.ActiveCfg = Release|Win32
+		{98864040-E723-43CF-9479-6FBCDF2F6C51}.Release|Win32.Build.0 = Release|Win32
+		{98864040-E723-43CF-9479-6FBCDF2F6C51}.Release|x64.ActiveCfg = Release|x64
+		{98864040-E723-43CF-9479-6FBCDF2F6C51}.Release|x64.Build.0 = Release|x64
+		{759ACB2E-A3BB-4707-BA60-C60D913BF6FD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{759ACB2E-A3BB-4707-BA60-C60D913BF6FD}.Debug|Win32.Build.0 = Debug|Win32
+		{759ACB2E-A3BB-4707-BA60-C60D913BF6FD}.Debug|x64.ActiveCfg = Debug|x64
+		{759ACB2E-A3BB-4707-BA60-C60D913BF6FD}.Debug|x64.Build.0 = Debug|x64
+		{759ACB2E-A3BB-4707-BA60-C60D913BF6FD}.Release|Win32.ActiveCfg = Release|Win32
+		{759ACB2E-A3BB-4707-BA60-C60D913BF6FD}.Release|Win32.Build.0 = Release|Win32
+		{759ACB2E-A3BB-4707-BA60-C60D913BF6FD}.Release|x64.ActiveCfg = Release|x64
+		{759ACB2E-A3BB-4707-BA60-C60D913BF6FD}.Release|x64.Build.0 = Release|x64
+		{E11169AF-C015-4C03-B639-03DA59645B97}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E11169AF-C015-4C03-B639-03DA59645B97}.Debug|Win32.Build.0 = Debug|Win32
+		{E11169AF-C015-4C03-B639-03DA59645B97}.Debug|x64.ActiveCfg = Debug|x64
+		{E11169AF-C015-4C03-B639-03DA59645B97}.Debug|x64.Build.0 = Debug|x64
+		{E11169AF-C015-4C03-B639-03DA59645B97}.Release|Win32.ActiveCfg = Release|Win32
+		{E11169AF-C015-4C03-B639-03DA59645B97}.Release|Win32.Build.0 = Release|Win32
+		{E11169AF-C015-4C03-B639-03DA59645B97}.Release|x64.ActiveCfg = Release|x64
+		{E11169AF-C015-4C03-B639-03DA59645B97}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

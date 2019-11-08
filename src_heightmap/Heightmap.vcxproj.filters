@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{0afe1f4c-a089-43f2-9880-9653e3e32383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{ada7ee14-332b-4acf-b1d2-70488ff3a9ce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src_common\Bmp.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src_common\core.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src_common\glsl.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src_common\ogl.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="stackblur.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src_common\Bmp.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src_common\core.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
